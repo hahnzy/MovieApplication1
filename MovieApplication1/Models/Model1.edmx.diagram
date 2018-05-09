@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2304d41848214641a79d0a7e65e6406a" Name="Diagram1">
+        <EntityTypeShape EntityType="MoviedbModel.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviedbModel.Movy" Width="1.5" PointX="9.875" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviedbModel.Rental" Width="1.5" PointX="4.625" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="MoviedbModel.FK_Rentals_Customers" />
+        <AssociationConnector Association="MoviedbModel.FK_Rentals_Movies" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
